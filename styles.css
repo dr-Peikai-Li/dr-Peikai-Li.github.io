@@ -338,3 +338,15 @@ footer div { display: flex; gap: 20px; }
 .simple-home .home-details::before { display: none; }
 .simple-home .timeline article::before { border-color: var(--paper); }
 .simple-home .site-footer { flex: 0 0 auto; }
+
+/* Compact homepage introduction keeps career details near the top. */
+.simple-home .home-hero { padding-top: 42px; padding-bottom: 36px; gap: 54px; }
+.simple-home .role { margin-bottom: 18px; }
+.simple-home .intro-text { line-height: 1.65; }
+.simple-home .home-details { padding-top: 28px; padding-bottom: 34px; }
+@media (max-width: 820px) {
+  .simple-home .home-hero { gap: 28px; padding-top: 30px; padding-bottom: 28px; }
+}
+@media (max-width: 540px) {
+  .simple-home .home-hero { gap: 22px; }
+}
