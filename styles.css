@@ -332,3 +332,9 @@ footer div { display: flex; gap: 20px; }
   .simple-home .portrait-wrap { width: 160px; margin: 0; }
   .simple-home .home-copy h1 { font-size: 44px; }
 }
+
+/* Keep the restored career section within normal flow. */
+.simple-home .home-details { border-top: 1px solid var(--line); padding-top: 36px; padding-bottom: 48px; }
+.simple-home .home-details::before { display: none; }
+.simple-home .timeline article::before { border-color: var(--paper); }
+.simple-home .site-footer { flex: 0 0 auto; }
