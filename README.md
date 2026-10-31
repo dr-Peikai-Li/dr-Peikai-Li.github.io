@@ -1,6 +1,6 @@
 # Dr Peikai Li: academic website
 
-Static website published with GitHub Pages at https://dr-peikai-li.github.io/.
+Static website published with GitHub Pages at https://www.peikaili.com/.
 
 - `index.html`: biography, experience, and education
 - `research.html`: research themes, tools, funding, and service

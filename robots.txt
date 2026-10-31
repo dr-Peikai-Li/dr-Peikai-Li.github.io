@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dr-peikai-li.github.io/sitemap.xml
+Sitemap: https://www.peikaili.com/sitemap.xml
